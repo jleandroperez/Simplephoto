@@ -127,6 +127,7 @@
 		B552BD60189940E60055BCE7 /* SimplePhoto */ = {
 			isa = PBXGroup;
 			children = (
+				B5EAA5261899A4CC0035189D /* iPad */,
 				B552BD69189940E60055BCE7 /* STAppDelegate.h */,
 				B552BD6A189940E60055BCE7 /* STAppDelegate.m */,
 				B552BDED18996DDB0055BCE7 /* Interface */,
@@ -135,7 +136,6 @@
 				B552BD72189940E60055BCE7 /* Images.xcassets */,
 				B552BD61189940E60055BCE7 /* Supporting Files */,
 			);
-			name = SimplePhoto;
 			path = SimplePhoto;
 			sourceTree = "<group>";
 		};
@@ -156,7 +156,6 @@
 				B552BD85189940E60055BCE7 /* SimplePhotoTests.m */,
 				B552BD80189940E60055BCE7 /* Supporting Files */,
 			);
-			name = SimplePhotoTests;
 			path = SimplePhotoTests;
 			sourceTree = "<group>";
 		};
@@ -198,6 +197,13 @@
 				B552BDF0189978380055BCE7 /* UIImage+Extensions.m */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B5EAA5261899A4CC0035189D /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,7 +440,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimplePhoto/SimplePhoto-Prefix.pch";
 				INFOPLIST_FILE = "SimplePhoto/SimplePhoto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = SimplePhoto;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -447,7 +455,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimplePhoto/SimplePhoto-Prefix.pch";
 				INFOPLIST_FILE = "SimplePhoto/SimplePhoto-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = SimplePhoto;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
